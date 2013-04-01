@@ -3,30 +3,30 @@
 class customer {
 
 public $customers = array(array(
-														"name" => "Json",
+														"name" => "abc",
 														"age" => "30",
-														"company" => "combisoft",
+														"company" => "xyz",
 														"address" => array (
 																									"street" => array (
-																																				"street1" => "M.G Road",
-																																				"locality" => "college road",
+																																				"street1" => "Road1",
+																																				"locality" => "Road2",
 																																		 ),
-																										"city" => "Nashik",
-																										"pincode" => 422009,
+																										"city" => "Nsk",
+																										"pincode" => 422222,
 																									),
 			  										"designation" => "Project Manager"
 													),
 										array(
-														"name" => "Julie's",
+														"name" => "jkl",
 														"age" => "21",
-														"company" => "combisoft",
+														"company" => "xyz",
 														"address" => array (
 																									"street" => array (
-																																				"street1" => "G.K Road",
-																																				"locality" => "school road",
+																																				"street1" => "K Road",
+																																				"locality" => "Road2",
 																																		 ),
 																										"city" => "Pune",
-																										"pincode" => 432009,
+																										"pincode" => 444444,
 																									),
 			  										"designation" => "Developer",
 													),
