@@ -1,12 +1,15 @@
 <?php 
 
-$a = 1;
-$b = 2;
 echo "Fibonaci Series is: "."<br/>";
 
-while($b < 100){
-	$c = $a + $b; 
-	echo $c."<br/>";
-	$a = $b;
-	$b = $c;
+function getFabonaci($number1,$number2,$limit){
+
+	while($number2 < $limit){
+			$number3 = $number1 + $number2; 
+			echo $number3."<br/>";
+			$number1 = $number2;
+			$number2 = $number3; 
+	}
 }
+getFabonaci(1,2,100);
+?>
